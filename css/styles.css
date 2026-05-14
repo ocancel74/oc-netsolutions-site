@@ -168,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo-img {
-    height: 100px;
+    height: 160px;
     width: auto;
     transition: transform var(--transition-normal);
 }
