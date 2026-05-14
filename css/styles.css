@@ -164,11 +164,11 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 0;
+    padding: 0.75rem 0;
 }
 
 .logo-img {
-    height: 50px;
+    height: 72px;
     width: auto;
     transition: transform var(--transition-normal);
 }
@@ -772,6 +772,12 @@ section {
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
     align-items: center;
+}
+
+.about-content--simple {
+    grid-template-columns: 1fr;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .about-card {
